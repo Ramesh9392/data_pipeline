@@ -1,0 +1,90 @@
+[2025-05-23T07:00:08.891+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-23T07:00:17.581+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit scheduled__2025-05-22T00:00:00+00:00 [queued]>
+[2025-05-23T07:00:17.742+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit scheduled__2025-05-22T00:00:00+00:00 [queued]>
+[2025-05-23T07:00:17.744+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-23T07:00:19.389+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): log_ingestion_audit> on 2025-05-22 00:00:00+00:00
+[2025-05-23T07:00:19.439+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'log_ingestion_audit', 'scheduled__2025-05-22T00:00:00+00:00', '--job-id', '431', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpflwh_k6z']
+[2025-05-23T07:00:19.472+0000] {standard_task_runner.py:91} INFO - Job 431: Subtask log_ingestion_audit
+[2025-05-23T07:00:19.445+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=250) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-23T07:00:19.481+0000] {standard_task_runner.py:63} INFO - Started process 256 to run task
+[2025-05-23T07:00:38.086+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.log_ingestion_audit scheduled__2025-05-22T00:00:00+00:00 [running]> on host 45099b717e09
+[2025-05-23T07:01:03.156+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='log_ingestion_audit' AIRFLOW_CTX_EXECUTION_DATE='2025-05-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-22T00:00:00+00:00'
+[2025-05-23T07:01:03.174+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-23T07:01:03.247+0000] {sql.py:276} INFO - Executing: -- Create the ingestion_audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INTEGER,
+    status TEXT,
+    notes TEXT,
+    retry_count INTEGER,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-22',
+    'random_product_api',
+    0,
+    'skipped',
+    'Task Skipped',
+    0,
+    NULL,
+    NULL
+);
+[2025-05-23T07:01:03.259+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-05-23T07:01:03.261+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-23T07:01:03.279+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-23T07:01:04.077+0000] {sql.py:487} INFO - Running statement: -- Create the ingestion_audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INTEGER,
+    status TEXT,
+    notes TEXT,
+    retry_count INTEGER,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-22',
+    'random_product_api',
+    0,
+    'skipped',
+    'Task Skipped',
+    0,
+    NULL,
+    NULL
+);, parameters: None
+[2025-05-23T07:01:04.124+0000] {sql.py:496} INFO - Rows affected: 1
+[2025-05-23T07:01:04.204+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-23T07:01:05.372+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=log_ingestion_audit, run_id=scheduled__2025-05-22T00:00:00+00:00, execution_date=20250522T000000, start_date=20250523T070017, end_date=20250523T070105
+[2025-05-23T07:01:05.486+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-23T07:01:06.590+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:1297 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2025-05-23T07:01:06.672+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T07:01:06.734+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

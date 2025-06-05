@@ -1,0 +1,18 @@
+[2025-06-03T03:22:37.001+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-03T03:22:37.399+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-06-02T00:00:00+00:00 [queued]>
+[2025-06-03T03:22:37.420+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-06-02T00:00:00+00:00 [queued]>
+[2025-06-03T03:22:37.422+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-06-03T03:22:37.453+0000] {taskinstance.py:2330} INFO - Executing <Task(SqlSensor): wait_for_existing_data> on 2025-06-02 00:00:00+00:00
+[2025-06-03T03:22:37.462+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=170) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-03T03:22:37.463+0000] {standard_task_runner.py:63} INFO - Started process 184 to run task
+[2025-06-03T03:22:37.462+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'wait_for_existing_data', 'scheduled__2025-06-02T00:00:00+00:00', '--job-id', '453', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpof3ubb12']
+[2025-06-03T03:22:37.464+0000] {standard_task_runner.py:91} INFO - Job 453: Subtask wait_for_existing_data
+[2025-06-03T03:22:38.471+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-06-02T00:00:00+00:00 [running]> on host fed8e0f764cf
+[2025-06-03T03:22:39.994+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_existing_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-02T00:00:00+00:00'
+[2025-06-03T03:22:39.996+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-03T03:22:40.033+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-06-03T03:22:40.035+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-06-03T03:22:40.041+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-06-03T03:22:40.043+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-06-03T03:22:40.569+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-06-03T03:22:40.575+0000] {sql.py:496} INFO - Rows affected: 0

@@ -1,0 +1,73 @@
+[2025-05-19T04:58:12.311+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-19T04:58:12.548+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-19T04:57:58.829124+00:00 [queued]>
+[2025-05-19T04:58:12.569+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-19T04:57:58.829124+00:00 [queued]>
+[2025-05-19T04:58:12.570+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-19T04:58:12.592+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): log_ingestion_audit> on 2025-05-19 04:57:58.829124+00:00
+[2025-05-19T04:58:12.602+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=292) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-19T04:58:12.600+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'log_ingestion_audit', 'manual__2025-05-19T04:57:58.829124+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpez0ht_gx']
+[2025-05-19T04:58:12.603+0000] {standard_task_runner.py:63} INFO - Started process 293 to run task
+[2025-05-19T04:58:12.604+0000] {standard_task_runner.py:91} INFO - Job 296: Subtask log_ingestion_audit
+[2025-05-19T04:58:13.343+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-19T04:57:58.829124+00:00 [running]> on host 28b429216431
+[2025-05-19T04:58:14.772+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='log_ingestion_audit' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T04:57:58.829124+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T04:57:58.829124+00:00'
+[2025-05-19T04:58:14.773+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-19T04:58:14.788+0000] {sql.py:276} INFO - Executing: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes
+)
+VALUES (
+    '2025-05-19',
+    'random_product_api',
+    20,
+    'success',
+    'Ingested via Airflow DAG random_user_pipeline'
+);
+[2025-05-19T04:58:14.789+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-05-19T04:58:14.790+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-19T04:58:14.793+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-19T04:58:14.979+0000] {sql.py:487} INFO - Running statement: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes
+)
+VALUES (
+    '2025-05-19',
+    'random_product_api',
+    20,
+    'success',
+    'Ingested via Airflow DAG random_user_pipeline'
+);, parameters: None
+[2025-05-19T04:58:14.983+0000] {sql.py:496} INFO - Rows affected: 1
+[2025-05-19T04:58:14.986+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-19T04:58:15.254+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=log_ingestion_audit, run_id=manual__2025-05-19T04:57:58.829124+00:00, execution_date=20250519T045758, start_date=20250519T045812, end_date=20250519T045815
+[2025-05-19T04:58:15.313+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-19T04:58:15.544+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T04:58:15.547+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,541 @@
+[2025-05-22T05:32:07.962+0000] {processor.py:161} INFO - Started process (PID=944) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:07.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:32:07.965+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:32:07.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:07.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:08.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.208 seconds
+[2025-05-22T05:32:32.932+0000] {processor.py:161} INFO - Started process (PID=964) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:32.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:32:32.935+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:32:32.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:32.945+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:32:32.945+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T05:32:32.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:32:33.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.234 seconds
+[2025-05-22T05:33:03.997+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:03.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:33:04.000+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:33:04.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:04.009+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:33:04.009+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T05:33:04.009+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:04.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.239 seconds
+[2025-05-22T05:33:34.848+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:34.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:33:34.851+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:33:34.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:34.863+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:33:34.863+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T05:33:34.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:33:35.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.222 seconds
+[2025-05-22T05:34:05.895+0000] {processor.py:161} INFO - Started process (PID=1024) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:05.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:34:05.898+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:34:05.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:05.907+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:34:05.906+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T05:34:05.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:06.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.208 seconds
+[2025-05-22T05:34:16.212+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:16.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:34:16.214+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:34:16.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:16.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:16.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.261 seconds
+[2025-05-22T05:34:47.121+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:47.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:34:47.124+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:34:47.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:47.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:34:47.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.243 seconds
+[2025-05-22T05:35:17.520+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:35:17.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:35:17.524+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:35:17.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:35:17.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:35:17.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.269 seconds
+[2025-05-22T05:36:17.804+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:17.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:36:17.807+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:36:17.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:17.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:18.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.240 seconds
+[2025-05-22T05:36:48.872+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:48.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:36:48.875+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:36:48.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:48.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:36:51.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.280 seconds
+[2025-05-22T05:37:21.515+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:21.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:37:21.517+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:37:21.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:21.539+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:21.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.234 seconds
+[2025-05-22T05:37:52.491+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:52.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:37:52.494+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:37:52.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:52.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:37:52.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.220 seconds
+[2025-05-22T05:38:22.802+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:22.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:38:22.804+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:38:22.804+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:22.817+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:23.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.218 seconds
+[2025-05-22T05:38:53.207+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:53.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:38:53.210+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:38:53.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:53.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:38:53.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.260 seconds
+[2025-05-22T05:39:23.531+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:23.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:39:23.533+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:39:23.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:23.545+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:23.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.253 seconds
+[2025-05-22T05:39:54.437+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:54.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:39:54.439+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:39:54.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:54.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:39:54.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.357 seconds
+[2025-05-22T05:40:25.533+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:25.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:40:25.537+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:40:25.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:25.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:25.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.242 seconds
+[2025-05-22T05:40:56.103+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:56.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:40:56.107+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:40:56.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:56.130+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:40:56.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.713 seconds
+[2025-05-22T05:41:27.286+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:27.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:41:27.289+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:41:27.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:27.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:27.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.275 seconds
+[2025-05-22T05:41:58.372+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:58.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:41:58.375+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:41:58.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:58.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:41:58.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.318 seconds
+[2025-05-22T05:42:29.005+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:29.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:42:29.008+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:42:29.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:29.025+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:29.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.336 seconds
+[2025-05-22T05:42:59.505+0000] {processor.py:161} INFO - Started process (PID=473) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:59.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:42:59.508+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:42:59.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:59.520+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:42:59.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.315 seconds
+[2025-05-22T05:43:29.963+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:43:29.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:43:29.966+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:43:29.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:43:29.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:43:30.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.532 seconds
+[2025-05-22T05:44:00.657+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:00.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:44:00.660+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:44:00.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:00.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:00.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.224 seconds
+[2025-05-22T05:44:31.326+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:31.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:44:31.329+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:44:31.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:31.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:44:33.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.245 seconds
+[2025-05-22T05:45:04.308+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:04.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:45:04.310+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:45:04.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:04.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:04.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.223 seconds
+[2025-05-22T05:45:34.698+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:34.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:45:34.701+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:45:34.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:34.718+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:45:34.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.224 seconds
+[2025-05-22T05:46:05.566+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:05.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:46:05.569+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:46:05.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:05.579+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:05.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.220 seconds
+[2025-05-22T05:46:36.117+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:36.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:46:36.120+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:46:36.119+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:36.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:46:36.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.258 seconds
+[2025-05-22T05:47:06.648+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:06.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:47:06.651+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:47:06.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:06.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:07.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.578 seconds
+[2025-05-22T05:47:37.960+0000] {processor.py:161} INFO - Started process (PID=659) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:37.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:47:37.962+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:47:37.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:37.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:47:38.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.244 seconds
+[2025-05-22T05:48:08.426+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:08.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:48:08.429+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:48:08.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:08.440+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:10.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 1.680 seconds
+[2025-05-22T05:48:40.444+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:40.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:48:40.447+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:48:40.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:40.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:48:40.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.261 seconds
+[2025-05-22T05:49:10.759+0000] {processor.py:161} INFO - Started process (PID=723) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:10.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:49:10.762+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:49:10.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:10.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:13.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.270 seconds
+[2025-05-22T05:49:43.188+0000] {processor.py:161} INFO - Started process (PID=743) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:43.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:49:43.191+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:49:43.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:43.207+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:49:43.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.343 seconds
+[2025-05-22T05:50:13.736+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:13.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:50:13.740+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:50:13.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:13.756+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:14.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.292 seconds
+[2025-05-22T05:50:44.167+0000] {processor.py:161} INFO - Started process (PID=783) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:44.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:50:44.170+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:50:44.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:44.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:50:44.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.220 seconds
+[2025-05-22T05:51:15.167+0000] {processor.py:161} INFO - Started process (PID=803) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:15.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:51:15.170+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:51:15.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:15.183+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:15.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.256 seconds
+[2025-05-22T05:51:45.506+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:45.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:51:45.508+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:51:45.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:45.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:51:45.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.245 seconds
+[2025-05-22T05:52:16.539+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:16.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:52:16.542+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:52:16.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:16.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:16.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.232 seconds
+[2025-05-22T05:52:46.866+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:46.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:52:46.869+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:52:46.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:46.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:52:47.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.264 seconds
+[2025-05-22T05:53:17.881+0000] {processor.py:161} INFO - Started process (PID=893) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:17.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:53:17.884+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:53:17.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:17.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:18.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.240 seconds
+[2025-05-22T05:53:48.868+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:48.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:53:48.871+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:53:48.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:48.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:53:49.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.233 seconds
+[2025-05-22T05:54:19.312+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:19.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:54:19.314+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:54:19.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:19.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:19.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.219 seconds
+[2025-05-22T05:54:49.621+0000] {processor.py:161} INFO - Started process (PID=963) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:49.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:54:49.625+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:54:49.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:49.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:54:49.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.298 seconds
+[2025-05-22T05:55:20.673+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:20.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:55:20.675+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:55:20.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:20.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:20.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.217 seconds
+[2025-05-22T05:55:50.985+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:50.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:55:50.987+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:55:50.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:50.999+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:55:53.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.246 seconds
+[2025-05-22T05:56:24.055+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:56:24.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T05:56:24.056+0000] {logging_mixin.py:188} INFO - [2025-05-22T05:56:24.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:56:24.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T05:56:24.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.238 seconds
+[2025-05-22T12:51:50.173+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:51:50.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:51:50.187+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:51:50.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:51:50.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:51:50.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.307 seconds
+[2025-05-22T12:52:20.909+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:20.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:52:20.911+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:52:20.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:20.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:21.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.226 seconds
+[2025-05-22T12:52:51.486+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:51.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:52:51.490+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:52:51.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:51.508+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:52:51.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.435 seconds
+[2025-05-22T12:53:22.342+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:22.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:53:22.344+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:53:22.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:22.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:22.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.230 seconds
+[2025-05-22T12:53:53.019+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:53.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:53:53.022+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:53:53.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:53.036+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:53:53.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.215 seconds
+[2025-05-22T12:54:23.638+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:23.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:54:23.640+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:54:23.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:23.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:23.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.225 seconds
+[2025-05-22T12:54:54.323+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:54.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:54:54.326+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:54:54.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:54.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:54:56.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.248 seconds
+[2025-05-22T12:55:26.991+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:26.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:55:26.994+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:55:26.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:27.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:27.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.206 seconds
+[2025-05-22T12:55:57.593+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:57.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:55:57.595+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:55:57.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:57.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:55:57.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.258 seconds
+[2025-05-22T12:56:28.271+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:28.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:56:28.273+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:56:28.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:28.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:28.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.264 seconds
+[2025-05-22T12:56:59.109+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:59.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:56:59.111+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:56:59.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:59.125+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:56:59.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.256 seconds
+[2025-05-22T12:57:29.780+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:57:29.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:57:29.782+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:57:29.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:57:29.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:57:30.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.242 seconds
+[2025-05-22T12:58:00.465+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:00.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:58:00.468+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:58:00.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:00.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:00.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.374 seconds
+[2025-05-22T12:58:31.291+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:31.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:58:31.294+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:58:31.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:31.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:58:32.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 1.076 seconds
+[2025-05-22T12:59:02.805+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:02.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:59:02.809+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:59:02.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:02.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:03.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.222 seconds
+[2025-05-22T12:59:33.430+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:33.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T12:59:33.432+0000] {logging_mixin.py:188} INFO - [2025-05-22T12:59:33.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:33.445+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T12:59:35.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.281 seconds
+[2025-05-22T13:00:06.061+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:06.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:00:06.064+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:00:06.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:06.079+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:06.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.283 seconds
+[2025-05-22T13:00:36.797+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:36.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:00:36.802+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:00:36.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:36.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:00:37.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.224 seconds
+[2025-05-22T13:01:07.429+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:07.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:01:07.433+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:01:07.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:07.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:07.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.325 seconds
+[2025-05-22T13:01:38.139+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:38.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:01:38.142+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:01:38.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:38.161+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:01:38.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.212 seconds
+[2025-05-22T13:02:08.451+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:08.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:02:08.454+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:02:08.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:08.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:08.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.248 seconds
+[2025-05-22T13:02:39.100+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:39.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:02:39.102+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:02:39.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:39.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:02:39.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.227 seconds
+[2025-05-22T13:03:09.804+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:09.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:03:09.806+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:03:09.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:09.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:10.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.281 seconds
+[2025-05-22T13:03:40.486+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:40.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:03:40.488+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:03:40.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:40.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:03:40.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.242 seconds
+[2025-05-22T13:04:11.099+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:11.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:04:11.101+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:04:11.101+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:11.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:11.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.230 seconds
+[2025-05-22T13:04:41.669+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:41.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:04:41.672+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:04:41.671+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:41.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:04:41.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.208 seconds
+[2025-05-22T13:05:12.296+0000] {processor.py:161} INFO - Started process (PID=481) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:12.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:05:12.299+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:05:12.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:12.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:12.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.208 seconds
+[2025-05-22T13:05:42.876+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:42.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:05:42.879+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:05:42.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:42.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:05:43.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.242 seconds
+[2025-05-22T13:06:13.537+0000] {processor.py:161} INFO - Started process (PID=501) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:13.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:06:13.540+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:06:13.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:13.551+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:13.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.255 seconds
+[2025-05-22T13:06:44.237+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:44.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:06:44.240+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:06:44.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:44.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:06:44.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.388 seconds
+[2025-05-22T13:07:15.059+0000] {processor.py:161} INFO - Started process (PID=521) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:15.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:07:15.062+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:07:15.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:15.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:15.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.285 seconds
+[2025-05-22T13:07:45.778+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:45.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:07:45.780+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:07:45.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:45.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:07:48.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.248 seconds
+[2025-05-22T13:08:18.091+0000] {processor.py:161} INFO - Started process (PID=541) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:18.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:08:18.093+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:08:18.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:18.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:18.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.216 seconds
+[2025-05-22T13:08:48.716+0000] {processor.py:161} INFO - Started process (PID=551) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:48.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:08:48.720+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:08:48.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:48.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:08:48.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.226 seconds
+[2025-05-22T13:09:19.304+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:19.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:09:19.307+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:09:19.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:19.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:19.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.234 seconds
+[2025-05-22T13:09:49.948+0000] {processor.py:161} INFO - Started process (PID=571) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:49.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:09:49.951+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:09:49.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:49.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:09:50.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.243 seconds
+[2025-05-22T13:10:20.609+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:20.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:10:20.612+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:10:20.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:20.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:20.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.220 seconds
+[2025-05-22T13:10:51.235+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:51.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:10:51.238+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:10:51.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:51.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:10:51.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.265 seconds
+[2025-05-22T13:11:21.903+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:21.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:11:21.905+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:11:21.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:21.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:22.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.278 seconds
+[2025-05-22T13:11:52.739+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:52.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:11:52.742+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:11:52.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:52.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:11:52.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.247 seconds
+[2025-05-22T13:12:23.418+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:23.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:12:23.421+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:12:23.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:23.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:23.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.219 seconds
+[2025-05-22T13:12:54.027+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:54.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:12:54.030+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:12:54.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:54.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:12:54.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.234 seconds
+[2025-05-22T13:13:24.603+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:24.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:13:24.606+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:13:24.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:24.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:26.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.257 seconds
+[2025-05-22T13:13:57.193+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:57.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:13:57.196+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:13:57.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:57.210+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:13:57.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.231 seconds
+[2025-05-22T13:14:27.799+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:27.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:14:27.802+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:14:27.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:27.814+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:28.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.254 seconds
+[2025-05-22T13:14:58.402+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:58.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:14:58.404+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:14:58.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:58.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:14:58.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.260 seconds
+[2025-05-22T13:15:29.029+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:29.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:15:29.032+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:15:29.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:29.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:29.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.254 seconds
+[2025-05-22T13:15:59.652+0000] {processor.py:161} INFO - Started process (PID=691) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:59.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:15:59.655+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:15:59.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:59.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:15:59.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.261 seconds
+[2025-05-22T13:16:30.315+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:16:30.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:16:30.317+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:16:30.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:16:30.330+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:16:30.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.248 seconds
+[2025-05-22T13:17:01.078+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:01.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:17:01.080+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:17:01.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:01.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:03.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 1.975 seconds
+[2025-05-22T13:17:33.717+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:33.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:17:33.720+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:17:33.720+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:33.732+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:17:33.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.239 seconds
+[2025-05-22T13:18:04.363+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:04.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:18:04.365+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:18:04.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:04.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:06.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 2.225 seconds
+[2025-05-22T13:18:36.933+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:36.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:18:36.936+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:18:36.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:36.949+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:18:37.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.194 seconds
+[2025-05-22T13:19:07.548+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:07.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:19:07.552+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:19:07.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:07.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:07.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.279 seconds
+[2025-05-22T13:19:38.195+0000] {processor.py:161} INFO - Started process (PID=761) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:38.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:19:38.198+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:19:38.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:38.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:19:38.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.230 seconds
+[2025-05-22T13:20:08.832+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:08.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:20:08.835+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:20:08.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:08.852+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:09.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.250 seconds
+[2025-05-22T13:20:39.161+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:39.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:20:39.163+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:20:39.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:39.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:20:39.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.257 seconds
+[2025-05-22T13:21:07.757+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:07.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:21:07.760+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:21:07.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:07.770+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:21:07.770+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T13:21:07.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:07.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.240 seconds
+[2025-05-22T13:21:38.366+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:38.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/utils/branch_decision.py for tasks to queue
+[2025-05-22T13:21:38.368+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:21:38.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:38.386+0000] {logging_mixin.py:188} INFO - [2025-05-22T13:21:38.386+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/utils/branch_decision.py assumed to contain no DAGs. Skipping.
+[2025-05-22T13:21:38.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/branch_decision.py
+[2025-05-22T13:21:38.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/utils/branch_decision.py took 0.268 seconds

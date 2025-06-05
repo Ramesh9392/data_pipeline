@@ -1,0 +1,62 @@
+[2025-05-24T03:17:18.760+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-24T03:17:19.463+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-05-23T00:00:00+00:00 [queued]>
+[2025-05-24T03:17:19.490+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-05-23T00:00:00+00:00 [queued]>
+[2025-05-24T03:17:19.493+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-05-24T03:17:19.527+0000] {taskinstance.py:2330} INFO - Executing <Task(SqlSensor): wait_for_existing_data> on 2025-05-23 00:00:00+00:00
+[2025-05-24T03:17:19.537+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=169) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-24T03:17:19.537+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'wait_for_existing_data', 'scheduled__2025-05-23T00:00:00+00:00', '--job-id', '437', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmp_pd7g28h']
+[2025-05-24T03:17:19.539+0000] {standard_task_runner.py:63} INFO - Started process 176 to run task
+[2025-05-24T03:17:19.540+0000] {standard_task_runner.py:91} INFO - Job 437: Subtask wait_for_existing_data
+[2025-05-24T03:17:21.119+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.wait_for_existing_data scheduled__2025-05-23T00:00:00+00:00 [running]> on host ada8de387ebd
+[2025-05-24T03:17:23.408+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_existing_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-23T00:00:00+00:00'
+[2025-05-24T03:17:23.410+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-24T03:17:23.472+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-05-24T03:17:23.474+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:17:23.489+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-05-24T03:17:23.491+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:17:24.073+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-05-24T03:17:24.081+0000] {sql.py:496} INFO - Rows affected: 0
+[2025-05-24T03:17:54.082+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:17:54.083+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-05-24T03:17:54.085+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:17:54.521+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-05-24T03:17:54.528+0000] {sql.py:496} INFO - Rows affected: 0
+[2025-05-24T03:18:24.530+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:18:24.531+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-05-24T03:18:24.532+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:18:25.021+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-05-24T03:18:25.027+0000] {sql.py:496} INFO - Rows affected: 0
+[2025-05-24T03:18:55.029+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:18:55.030+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-05-24T03:18:55.031+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:18:57.440+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-05-24T03:18:57.449+0000] {sql.py:496} INFO - Rows affected: 0
+[2025-05-24T03:19:27.450+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:19:27.451+0000] {sql.py:95} INFO - Poking: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1; (with parameters None)
+[2025-05-24T03:19:27.453+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-24T03:19:28.665+0000] {sql.py:487} INFO - Running statement: SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;, parameters: None
+[2025-05-24T03:19:28.673+0000] {sql.py:496} INFO - Rows affected: 0
+[2025-05-24T03:19:28.676+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-24T03:19:28.678+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 281, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 125.21582334098639 seconds exceeds the specified timeout of 120.0.
+[2025-05-24T03:19:29.901+0000] {taskinstance.py:1206} INFO - Immediate failure requested. Marking task as FAILED. dag_id=random_user_pipeline, task_id=wait_for_existing_data, run_id=scheduled__2025-05-23T00:00:00+00:00, execution_date=20250523T000000, start_date=20250524T031719, end_date=20250524T031929
+[2025-05-24T03:19:29.969+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-05-24T03:19:29.975+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2025-05-24T03:19:31.506+0000] {email.py:282} INFO - Sent an alert email to ['papala.ramesh@quation.in', 'smilesoframs@gmail.com', 'ramesh.rams333@gmail.com']
+[2025-05-24T03:19:34.543+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 437 for task wait_for_existing_data (Sensor has timed out; run duration of 125.21582334098639 seconds exceeds the specified timeout of 120.0.; 176)
+[2025-05-24T03:19:34.565+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-05-24T03:19:35.286+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:1297 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2025-05-24T03:19:35.345+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-24T03:19:35.356+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

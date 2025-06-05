@@ -1,0 +1,97 @@
+[2025-05-20T04:52:10.119+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-20T04:52:10.360+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:51:56.942979+00:00 [queued]>
+[2025-05-20T04:52:10.372+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:51:56.942979+00:00 [queued]>
+[2025-05-20T04:52:10.372+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-20T04:52:10.388+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): log_ingestion_audit> on 2025-05-20 04:51:56.942979+00:00
+[2025-05-20T04:52:10.394+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'log_ingestion_audit', 'manual__2025-05-20T04:51:56.942979+00:00', '--job-id', '324', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpkkcos40h']
+[2025-05-20T04:52:10.396+0000] {standard_task_runner.py:91} INFO - Job 324: Subtask log_ingestion_audit
+[2025-05-20T04:52:10.396+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=292) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-20T04:52:10.397+0000] {standard_task_runner.py:63} INFO - Started process 293 to run task
+[2025-05-20T04:52:10.996+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:51:56.942979+00:00 [running]> on host 6fa8797bae60
+[2025-05-20T04:52:13.295+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='log_ingestion_audit' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T04:51:56.942979+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T04:51:56.942979+00:00'
+[2025-05-20T04:52:13.296+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-20T04:52:13.307+0000] {sql.py:276} INFO - Executing: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    retry_count INT,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-20',
+    'random_product_api',
+    0,
+    'failure',
+    'column "descriptions" of relation "products" does not exist
+LINE 2:                 name, descriptions, ean, upc, image, net_pri...
+                              ^
+',
+    1,
+    '2025-05-20T04:52:06.281254'::timestamp,
+    '2025-05-20T04:52:07.524041'::timestamp
+);
+[2025-05-20T04:52:13.308+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-05-20T04:52:13.309+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-20T04:52:13.313+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-20T04:52:13.496+0000] {sql.py:487} INFO - Running statement: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    retry_count INT,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-20',
+    'random_product_api',
+    0,
+    'failure',
+    'column "descriptions" of relation "products" does not exist
+LINE 2:                 name, descriptions, ean, upc, image, net_pri...
+                              ^
+',
+    1,
+    '2025-05-20T04:52:06.281254'::timestamp,
+    '2025-05-20T04:52:07.524041'::timestamp
+);, parameters: None
+[2025-05-20T04:52:13.499+0000] {sql.py:496} INFO - Rows affected: 1
+[2025-05-20T04:52:13.501+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-20T04:52:13.682+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=log_ingestion_audit, run_id=manual__2025-05-20T04:51:56.942979+00:00, execution_date=20250520T045156, start_date=20250520T045210, end_date=20250520T045213
+[2025-05-20T04:52:13.708+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-20T04:52:13.975+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T04:52:13.978+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

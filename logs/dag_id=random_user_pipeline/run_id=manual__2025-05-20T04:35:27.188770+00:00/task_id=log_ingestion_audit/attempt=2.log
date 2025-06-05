@@ -1,0 +1,119 @@
+[2025-05-20T04:37:58.354+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-20T04:37:58.625+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:35:27.188770+00:00 [queued]>
+[2025-05-20T04:37:58.638+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:35:27.188770+00:00 [queued]>
+[2025-05-20T04:37:58.639+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-05-20T04:37:58.659+0000] {taskinstance.py:2330} INFO - Executing <Task(PostgresOperator): log_ingestion_audit> on 2025-05-20 04:35:27.188770+00:00
+[2025-05-20T04:37:58.668+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'log_ingestion_audit', 'manual__2025-05-20T04:35:27.188770+00:00', '--job-id', '317', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmp6xztkjc1']
+[2025-05-20T04:37:58.671+0000] {standard_task_runner.py:91} INFO - Job 317: Subtask log_ingestion_audit
+[2025-05-20T04:37:58.673+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=401) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-20T04:37:58.674+0000] {standard_task_runner.py:63} INFO - Started process 402 to run task
+[2025-05-20T04:37:59.398+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.log_ingestion_audit manual__2025-05-20T04:35:27.188770+00:00 [running]> on host 01a6db3bec8d
+[2025-05-20T04:38:01.849+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='log_ingestion_audit' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T04:35:27.188770+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T04:35:27.188770+00:00'
+[2025-05-20T04:38:01.850+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-20T04:38:01.860+0000] {sql.py:276} INFO - Executing: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    retry_count INT,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-20',
+    'random_product_api',
+    0,
+    'failure',
+    'cannot access local variable 'data' where it is not associated with a value',
+    2,
+    '2025-05-20T04:36:46.544841'::timestamp,
+    '2025-05-20T04:36:46.544858'::timestamp
+);
+[2025-05-20T04:38:01.862+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-05-20T04:38:01.862+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-20T04:38:01.865+0000] {base.py:84} INFO - Using connection ID '***_default' for task execution.
+[2025-05-20T04:38:02.110+0000] {sql.py:487} INFO - Running statement: -- Create audit table if it doesn't exist
+CREATE TABLE IF NOT EXISTS ingestion_audit (
+    id SERIAL PRIMARY KEY,
+    ingestion_date DATE,
+    source TEXT,
+    record_count INT,
+    status TEXT,
+    notes TEXT,
+    retry_count INT,
+    start_time TIMESTAMP,
+    end_time TIMESTAMP,
+    logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert audit log
+INSERT INTO ingestion_audit (
+    ingestion_date,
+    source,
+    record_count,
+    status,
+    notes,
+    retry_count,
+    start_time,
+    end_time
+)
+VALUES (
+    '2025-05-20',
+    'random_product_api',
+    0,
+    'failure',
+    'cannot access local variable 'data' where it is not associated with a value',
+    2,
+    '2025-05-20T04:36:46.544841'::timestamp,
+    '2025-05-20T04:36:46.544858'::timestamp
+);, parameters: None
+[2025-05-20T04:38:02.113+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-20T04:38:02.114+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 435, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 492, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "data"
+LINE 31:     'cannot access local variable 'data' where it is not ass...
+                                            ^
+
+[2025-05-20T04:38:02.352+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=random_user_pipeline, task_id=log_ingestion_audit, run_id=manual__2025-05-20T04:35:27.188770+00:00, execution_date=20250520T043527, start_date=20250520T043758, end_date=20250520T043802
+[2025-05-20T04:38:02.375+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-05-20T04:38:02.376+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2025-05-20T04:38:03.655+0000] {email.py:282} INFO - Sent an alert email to ['papala.ramesh@quation.in', 'smilesoframs@gmail.com', 'ramesh.rams333@gmail.com']
+[2025-05-20T04:38:05.937+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 317 for task log_ingestion_audit (syntax error at or near "data"
+LINE 31:     'cannot access local variable 'data' where it is not ass...
+                                            ^
+; 402)
+[2025-05-20T04:38:05.975+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-05-20T04:38:06.232+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T04:38:06.235+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

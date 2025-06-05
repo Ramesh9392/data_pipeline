@@ -1,0 +1,37 @@
+services:
+  airflow:
+    image: apache/airflow:2.9.2
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file: .env
+
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: "postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}"
+      AIRFLOW_CONN_POSTGRES_DEFAULT: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}"
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW_ADMIN_USERNAME: "${AIRFLOW_ADMIN_USERNAME}"
+      AIRFLOW_ADMIN_PASSWORD: "${AIRFLOW_ADMIN_PASSWORD}"
+      # New SMTP email settings from .env
+      AIRFLOW__EMAIL__EMAIL_BACKEND: airflow.utils.email.send_email_smtp
+      AIRFLOW__SMTP__SMTP_HOST: "${smtp_server}"
+      AIRFLOW__SMTP__SMTP_PORT: "${smtp_port}"
+      AIRFLOW__SMTP__SMTP_USER: "${smtp_username}"
+      AIRFLOW__SMTP__SMTP_PASSWORD: "${smtp_password}"
+      AIRFLOW__SMTP__SMTP_MAIL_FROM: "${smtp_sender_email}"
+      AIRFLOW__SMTP__SMTP_STARTTLS: 'True'
+      AIRFLOW__SMTP__SMTP_SSL: 'False'
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
+      - ./requirements.txt:/opt/airflow/requirements.txt
+
+    entrypoint: >
+      /bin/bash -c "
+      airflow db upgrade &&
+      airflow users create --username ${AIRFLOW_ADMIN_USERNAME} --firstname Admin --lastname User --role Admin --email admin@example.com --password ${AIRFLOW_ADMIN_PASSWORD} &&
+      airflow webserver & 
+      sleep 10 &&
+      airflow scheduler"

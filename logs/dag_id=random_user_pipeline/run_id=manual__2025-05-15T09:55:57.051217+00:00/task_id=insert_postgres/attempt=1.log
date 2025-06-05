@@ -1,0 +1,124 @@
+[2025-05-15T09:56:05.544+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-15T09:56:05.818+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-15T09:55:57.051217+00:00 [queued]>
+[2025-05-15T09:56:05.828+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-15T09:55:57.051217+00:00 [queued]>
+[2025-05-15T09:56:05.829+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-15T09:56:05.843+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_postgres> on 2025-05-15 09:55:57.051217+00:00
+[2025-05-15T09:56:05.851+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'insert_***', 'manual__2025-05-15T09:55:57.051217+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpdaem0kim']
+[2025-05-15T09:56:05.853+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=10052) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-15T09:56:05.853+0000] {standard_task_runner.py:91} INFO - Job 226: Subtask insert_***
+[2025-05-15T09:56:05.854+0000] {standard_task_runner.py:63} INFO - Started process 10053 to run task
+[2025-05-15T09:56:06.596+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-15T09:55:57.051217+00:00 [running]> on host 4158771de208
+[2025-05-15T09:56:08.025+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='insert_***' AIRFLOW_CTX_EXECUTION_DATE='2025-05-15T09:55:57.051217+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-15T09:55:57.051217+00:00'
+[2025-05-15T09:56:08.026+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-15T09:56:08.038+0000] {logging_mixin.py:188} INFO - Parsed using ast.literal_eval (Python dict string).
+[2025-05-15T09:56:08.249+0000] {logging_mixin.py:188} INFO - ✅ Database connection established.
+[2025-05-15T09:56:08.252+0000] {logging_mixin.py:188} INFO - ✅ Table ready.
+[2025-05-15T09:56:08.252+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.253+0000] {logging_mixin.py:188} INFO - Name: Aut quasi possimus est.
+[2025-05-15T09:56:08.253+0000] {logging_mixin.py:188} INFO - Description: Enim consequuntur sit rerum et. Voluptas eligendi quasi expedita voluptate. Quas sed officiis aliquam perspiciatis sit est.
+[2025-05-15T09:56:08.253+0000] {logging_mixin.py:188} INFO - EAN: 9777534814670
+[2025-05-15T09:56:08.253+0000] {logging_mixin.py:188} INFO - UPC: 302318946944
+[2025-05-15T09:56:08.254+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.254+0000] {logging_mixin.py:188} INFO - Net Price: 67.84
+[2025-05-15T09:56:08.254+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.254+0000] {logging_mixin.py:188} INFO - Price: 82.76
+[2025-05-15T09:56:08.258+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.259+0000] {logging_mixin.py:188} INFO - Name: Cum deserunt itaque at.
+[2025-05-15T09:56:08.259+0000] {logging_mixin.py:188} INFO - Description: Veritatis aperiam eligendi neque officiis asperiores. Occaecati fugit doloribus autem enim voluptatem. Vel fugiat sint recusandae libero molestias dolor.
+[2025-05-15T09:56:08.259+0000] {logging_mixin.py:188} INFO - EAN: 4270524826301
+[2025-05-15T09:56:08.260+0000] {logging_mixin.py:188} INFO - UPC: 148924386015
+[2025-05-15T09:56:08.260+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.261+0000] {logging_mixin.py:188} INFO - Net Price: 37634.84
+[2025-05-15T09:56:08.261+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.262+0000] {logging_mixin.py:188} INFO - Price: 45914.5
+[2025-05-15T09:56:08.264+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.264+0000] {logging_mixin.py:188} INFO - Name: Vitae et est ut.
+[2025-05-15T09:56:08.265+0000] {logging_mixin.py:188} INFO - Description: Praesentium aut quisquam id rerum. Aliquam blanditiis aut rerum perferendis reprehenderit. Rem aliquid cupiditate alias ut.
+[2025-05-15T09:56:08.265+0000] {logging_mixin.py:188} INFO - EAN: 0046603488395
+[2025-05-15T09:56:08.265+0000] {logging_mixin.py:188} INFO - UPC: 680603380190
+[2025-05-15T09:56:08.266+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.266+0000] {logging_mixin.py:188} INFO - Net Price: 239269.42
+[2025-05-15T09:56:08.266+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.267+0000] {logging_mixin.py:188} INFO - Price: 291908.69
+[2025-05-15T09:56:08.268+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.268+0000] {logging_mixin.py:188} INFO - Name: Ad provident in sit dolorem.
+[2025-05-15T09:56:08.269+0000] {logging_mixin.py:188} INFO - Description: Est est accusantium asperiores quam aliquam et. Sit amet voluptatem mollitia debitis itaque sed. Qui natus est architecto saepe aut.
+[2025-05-15T09:56:08.269+0000] {logging_mixin.py:188} INFO - EAN: 1917383219266
+[2025-05-15T09:56:08.269+0000] {logging_mixin.py:188} INFO - UPC: 006290228111
+[2025-05-15T09:56:08.269+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.270+0000] {logging_mixin.py:188} INFO - Net Price: 50.69
+[2025-05-15T09:56:08.270+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.270+0000] {logging_mixin.py:188} INFO - Price: 61.84
+[2025-05-15T09:56:08.271+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.272+0000] {logging_mixin.py:188} INFO - Name: Provident illo velit eum et.
+[2025-05-15T09:56:08.272+0000] {logging_mixin.py:188} INFO - Description: Quis soluta ab eum labore veniam. Nesciunt numquam molestiae consequatur maxime aut occaecati est. Earum occaecati maiores ratione non est qui fuga.
+[2025-05-15T09:56:08.272+0000] {logging_mixin.py:188} INFO - EAN: 6901325428538
+[2025-05-15T09:56:08.272+0000] {logging_mixin.py:188} INFO - UPC: 003117459556
+[2025-05-15T09:56:08.273+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.273+0000] {logging_mixin.py:188} INFO - Net Price: 650879427.29
+[2025-05-15T09:56:08.273+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.273+0000] {logging_mixin.py:188} INFO - Price: 794072901.29
+[2025-05-15T09:56:08.275+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.275+0000] {logging_mixin.py:188} INFO - Name: Modi non culpa iste magni.
+[2025-05-15T09:56:08.276+0000] {logging_mixin.py:188} INFO - Description: Aut rem tempore reprehenderit magni cupiditate reprehenderit. Unde aut ex rerum. Ratione laudantium molestiae placeat sit repudiandae ullam quae doloremque. Aut atque illo doloremque id sed.
+[2025-05-15T09:56:08.276+0000] {logging_mixin.py:188} INFO - EAN: 0067203862620
+[2025-05-15T09:56:08.276+0000] {logging_mixin.py:188} INFO - UPC: 372206157290
+[2025-05-15T09:56:08.277+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.277+0000] {logging_mixin.py:188} INFO - Net Price: 99923.44
+[2025-05-15T09:56:08.277+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.278+0000] {logging_mixin.py:188} INFO - Price: 121906.6
+[2025-05-15T09:56:08.279+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.279+0000] {logging_mixin.py:188} INFO - Name: Omnis est nesciunt qui ut.
+[2025-05-15T09:56:08.279+0000] {logging_mixin.py:188} INFO - Description: Et dignissimos amet ut officiis sapiente consequuntur est. Vero magnam est minima ea et soluta maiores sed. Suscipit quibusdam error et voluptatem voluptate. Suscipit est dolorem ipsa quae.
+[2025-05-15T09:56:08.280+0000] {logging_mixin.py:188} INFO - EAN: 4207502353474
+[2025-05-15T09:56:08.280+0000] {logging_mixin.py:188} INFO - UPC: 957882839567
+[2025-05-15T09:56:08.280+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.281+0000] {logging_mixin.py:188} INFO - Net Price: 13745922.48
+[2025-05-15T09:56:08.281+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.281+0000] {logging_mixin.py:188} INFO - Price: 16770025.43
+[2025-05-15T09:56:08.282+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.283+0000] {logging_mixin.py:188} INFO - Name: Cum ut ut totam excepturi.
+[2025-05-15T09:56:08.283+0000] {logging_mixin.py:188} INFO - Description: Consequatur fugiat nesciunt et dolor. Quia non nihil voluptatem nam quasi. Quas reiciendis cum itaque ex expedita aut.
+[2025-05-15T09:56:08.283+0000] {logging_mixin.py:188} INFO - EAN: 7675430956673
+[2025-05-15T09:56:08.284+0000] {logging_mixin.py:188} INFO - UPC: 770843784950
+[2025-05-15T09:56:08.284+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.284+0000] {logging_mixin.py:188} INFO - Net Price: 6572154.26
+[2025-05-15T09:56:08.284+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.285+0000] {logging_mixin.py:188} INFO - Price: 8018028.2
+[2025-05-15T09:56:08.286+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.286+0000] {logging_mixin.py:188} INFO - Name: Quo nemo dolor est.
+[2025-05-15T09:56:08.287+0000] {logging_mixin.py:188} INFO - Description: Est veritatis excepturi repellat ut quo. Et deleniti voluptatem consectetur minima quos. Sequi iure voluptatem et dolor dolores deleniti. Iste quis commodi est repellendus.
+[2025-05-15T09:56:08.287+0000] {logging_mixin.py:188} INFO - EAN: 9797309246116
+[2025-05-15T09:56:08.287+0000] {logging_mixin.py:188} INFO - UPC: 822360188756
+[2025-05-15T09:56:08.287+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.288+0000] {logging_mixin.py:188} INFO - Net Price: 179940262.2
+[2025-05-15T09:56:08.288+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.288+0000] {logging_mixin.py:188} INFO - Price: 219527119.88
+[2025-05-15T09:56:08.289+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-15T09:56:08.289+0000] {logging_mixin.py:188} INFO - Name: Ea illo soluta sed cum.
+[2025-05-15T09:56:08.290+0000] {logging_mixin.py:188} INFO - Description: Aspernatur sunt illum est esse ducimus tenetur. Laudantium non perspiciatis ea doloribus et. Doloribus sunt iste est. Qui dignissimos sed in ipsam.
+[2025-05-15T09:56:08.290+0000] {logging_mixin.py:188} INFO - EAN: 2941298918715
+[2025-05-15T09:56:08.290+0000] {logging_mixin.py:188} INFO - UPC: 008585288553
+[2025-05-15T09:56:08.291+0000] {logging_mixin.py:188} INFO - Image: http://placeimg.com/640/480/tech
+[2025-05-15T09:56:08.291+0000] {logging_mixin.py:188} INFO - Net Price: 492.84
+[2025-05-15T09:56:08.291+0000] {logging_mixin.py:188} INFO - Taxes: 22.0
+[2025-05-15T09:56:08.292+0000] {logging_mixin.py:188} INFO - Price: 601.26
+[2025-05-15T09:56:08.294+0000] {logging_mixin.py:188} INFO - 
+✅ Inserted 10 products successfully.
+[2025-05-15T09:56:08.294+0000] {logging_mixin.py:188} INFO - 🔒 DB connection closed.
+[2025-05-15T09:56:08.294+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-05-15T09:56:08.295+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-15T09:56:08.570+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=insert_***, run_id=manual__2025-05-15T09:55:57.051217+00:00, execution_date=20250515T095557, start_date=20250515T095605, end_date=20250515T095608
+[2025-05-15T09:56:08.602+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-15T09:56:08.851+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-15T09:56:08.854+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

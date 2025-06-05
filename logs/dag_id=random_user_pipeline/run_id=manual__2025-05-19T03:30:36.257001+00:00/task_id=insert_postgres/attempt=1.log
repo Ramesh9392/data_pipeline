@@ -1,0 +1,64 @@
+[2025-05-19T03:30:50.106+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-19T03:30:50.625+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-19T03:30:36.257001+00:00 [queued]>
+[2025-05-19T03:30:50.645+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-19T03:30:36.257001+00:00 [queued]>
+[2025-05-19T03:30:50.646+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-19T03:30:50.686+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_postgres> on 2025-05-19 03:30:36.257001+00:00
+[2025-05-19T03:30:50.697+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'insert_***', 'manual__2025-05-19T03:30:36.257001+00:00', '--job-id', '276', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpmjsosjhr']
+[2025-05-19T03:30:50.702+0000] {standard_task_runner.py:91} INFO - Job 276: Subtask insert_***
+[2025-05-19T03:30:50.702+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=237) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-19T03:30:50.704+0000] {standard_task_runner.py:63} INFO - Started process 240 to run task
+[2025-05-19T03:30:52.645+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-19T03:30:36.257001+00:00 [running]> on host 535a6dcc4d99
+[2025-05-19T03:30:56.191+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='insert_***' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T03:30:36.257001+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T03:30:36.257001+00:00'
+[2025-05-19T03:30:56.194+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-19T03:30:56.272+0000] {logging_mixin.py:188} INFO - Parsed using ast.literal_eval (Python dict string).
+[2025-05-19T03:30:56.985+0000] {logging_mixin.py:188} INFO - ✅ Database connection established.
+[2025-05-19T03:30:57.036+0000] {logging_mixin.py:188} INFO - ✅ Table ready.
+[2025-05-19T03:30:57.043+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.053+0000] {logging_mixin.py:188} INFO - Name: Qui voluptatem saepe et.
+[2025-05-19T03:30:57.057+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.043002
+[2025-05-19T03:30:57.090+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.091+0000] {logging_mixin.py:188} INFO - Name: Culpa nulla ex qui.
+[2025-05-19T03:30:57.092+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.090624
+[2025-05-19T03:30:57.105+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.109+0000] {logging_mixin.py:188} INFO - Name: Reiciendis amet vero facilis.
+[2025-05-19T03:30:57.110+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.105388
+[2025-05-19T03:30:57.123+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.132+0000] {logging_mixin.py:188} INFO - Name: Vitae aut est et.
+[2025-05-19T03:30:57.133+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.123737
+[2025-05-19T03:30:57.140+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.141+0000] {logging_mixin.py:188} INFO - Name: Et quae rerum voluptatem.
+[2025-05-19T03:30:57.142+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.140538
+[2025-05-19T03:30:57.146+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.147+0000] {logging_mixin.py:188} INFO - Name: Quia enim aspernatur aut.
+[2025-05-19T03:30:57.148+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.146557
+[2025-05-19T03:30:57.152+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.153+0000] {logging_mixin.py:188} INFO - Name: Aut sint impedit laborum in.
+[2025-05-19T03:30:57.154+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.151977
+[2025-05-19T03:30:57.157+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.158+0000] {logging_mixin.py:188} INFO - Name: Suscipit et illum blanditiis.
+[2025-05-19T03:30:57.160+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.157819
+[2025-05-19T03:30:57.163+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.164+0000] {logging_mixin.py:188} INFO - Name: Pariatur ut rerum incidunt.
+[2025-05-19T03:30:57.164+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.163185
+[2025-05-19T03:30:57.167+0000] {logging_mixin.py:188} INFO - 
+--- Inserting product ---
+[2025-05-19T03:30:57.168+0000] {logging_mixin.py:188} INFO - Name: Neque et accusantium aut et.
+[2025-05-19T03:30:57.168+0000] {logging_mixin.py:188} INFO - Created At: 2025-05-19 03:30:57.166976
+[2025-05-19T03:30:57.181+0000] {logging_mixin.py:188} INFO - 
+✅ Inserted 10 products successfully.
+[2025-05-19T03:30:57.183+0000] {logging_mixin.py:188} INFO - 🔒 DB connection closed.
+[2025-05-19T03:30:57.184+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-05-19T03:30:57.192+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-19T03:30:57.827+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=insert_***, run_id=manual__2025-05-19T03:30:36.257001+00:00, execution_date=20250519T033036, start_date=20250519T033050, end_date=20250519T033057
+[2025-05-19T03:30:57.915+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-19T03:30:58.419+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T03:30:58.423+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

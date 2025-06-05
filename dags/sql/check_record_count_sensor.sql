@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM products WHERE DATE(created_at) = CURRENT_DATE;

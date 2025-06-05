@@ -1,0 +1,1 @@
+SELECT 1 FROM products WHERE DATE(created_at) = CURRENT_DATE LIMIT 1;

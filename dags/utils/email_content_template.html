@@ -1,0 +1,11 @@
+<h3>Ingestion Report for {{ ds }}</h3>
+<ul>
+    <li><strong>Task: wait_for_existing_data</strong> - {{ task_instance.xcom_pull(task_ids='wait_for_existing_data', key='status') or 'unknown' }}</li>
+    <li><strong>Task: branch_on_count</strong> - {{ task_instance.xcom_pull(task_ids='branch_on_count', key='status') or 'unknown' }}</li>
+    <li><strong>Task: fetch_random_product</strong> - {{ task_instance.xcom_pull(task_ids='fetch_random_product', key='status') or 'skipped' }}</li>
+    <li><strong>Task: insert_postgres</strong> - {{ task_instance.xcom_pull(task_ids='insert_postgres', key='status') or 'skipped' }}</li>
+    <li><strong>Task: log_ingestion_audit</strong> - {{ task_instance.xcom_pull(task_ids='log_ingestion_audit', key='status') or 'unknown' }}</li>
+    <li><strong>Record Count:</strong> {{ ti.xcom_pull(task_ids='insert_postgres', key='record_count') or 0 }}</li>
+    <li><strong>Retry Count:</strong> {{ ti.xcom_pull(task_ids='insert_postgres', key='retry_count') or 0 }}</li>
+    <li><strong>Notes:</strong> {{ ti.xcom_pull(task_ids='insert_postgres', key='notes') or ti.xcom_pull(task_ids='branch_on_count', key='notes') or 'N/A' }}</li>
+</ul>

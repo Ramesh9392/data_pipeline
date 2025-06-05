@@ -1,0 +1,19 @@
+[2025-04-29T15:02:14.296+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-29T15:02:27.903+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-29T14:59:07+00:00 [queued]>
+[2025-04-29T15:02:27.926+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-29T14:59:07+00:00 [queued]>
+[2025-04-29T15:02:27.928+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-29T15:02:28.001+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_postgres> on 2025-04-29 14:59:07+00:00
+[2025-04-29T15:02:28.015+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'insert_***', 'scheduled__2025-04-29T14:59:07+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpnt4h42qu']
+[2025-04-29T15:02:28.020+0000] {standard_task_runner.py:91} INFO - Job 163: Subtask insert_***
+[2025-04-29T15:02:28.025+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=253) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-29T15:02:28.026+0000] {standard_task_runner.py:63} INFO - Started process 280 to run task
+[2025-04-29T15:02:56.227+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-29T14:59:07+00:00 [running]> on host 2a0a6c55c214
+[2025-04-29T15:03:55.810+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='insert_***' AIRFLOW_CTX_EXECUTION_DATE='2025-04-29T14:59:07+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-29T14:59:07+00:00'
+[2025-04-29T15:03:55.812+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-29T15:03:55.835+0000] {logging_mixin.py:188} INFO - Input string is not valid JSON.
+[2025-04-29T15:03:55.836+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-29T15:03:55.837+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-29T15:04:06.302+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=insert_***, run_id=scheduled__2025-04-29T14:59:07+00:00, execution_date=20250429T145907, start_date=20250429T150227, end_date=20250429T150406
+[2025-04-29T15:04:11.884+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-29T15:04:19.923+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-29T15:04:19.928+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

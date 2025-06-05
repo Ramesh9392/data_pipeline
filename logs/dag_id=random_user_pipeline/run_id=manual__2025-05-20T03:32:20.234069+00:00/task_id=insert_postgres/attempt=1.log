@@ -1,0 +1,24 @@
+[2025-05-20T03:32:29.543+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-20T03:32:29.935+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-20T03:32:20.234069+00:00 [queued]>
+[2025-05-20T03:32:29.947+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-20T03:32:20.234069+00:00 [queued]>
+[2025-05-20T03:32:29.948+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-05-20T03:32:29.965+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_postgres> on 2025-05-20 03:32:20.234069+00:00
+[2025-05-20T03:32:29.972+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'insert_***', 'manual__2025-05-20T03:32:20.234069+00:00', '--job-id', '302', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpf06h4pa9']
+[2025-05-20T03:32:29.975+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=245) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-05-20T03:32:29.974+0000] {standard_task_runner.py:91} INFO - Job 302: Subtask insert_***
+[2025-05-20T03:32:29.975+0000] {standard_task_runner.py:63} INFO - Started process 246 to run task
+[2025-05-20T03:32:30.829+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.insert_postgres manual__2025-05-20T03:32:20.234069+00:00 [running]> on host 65cffcc24c74
+[2025-05-20T03:32:32.458+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='papala.ramesh@quation.in,smilesoframs@gmail.com,ramesh.rams333@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='insert_***' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T03:32:20.234069+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T03:32:20.234069+00:00'
+[2025-05-20T03:32:32.460+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-20T03:32:32.485+0000] {logging_mixin.py:188} INFO - Parsed using ast.literal_eval (Python dict string).
+[2025-05-20T03:32:32.781+0000] {logging_mixin.py:188} INFO - ✅ Database connection established.
+[2025-05-20T03:32:32.785+0000] {logging_mixin.py:188} INFO - ✅ Product table ready.
+[2025-05-20T03:32:32.820+0000] {logging_mixin.py:188} INFO - ✅ Inserted 20 products successfully.
+[2025-05-20T03:32:33.222+0000] {logging_mixin.py:188} INFO - 🔒 DB connection closed.
+[2025-05-20T03:32:33.224+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-05-20T03:32:33.227+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-20T03:32:33.583+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=random_user_pipeline, task_id=insert_***, run_id=manual__2025-05-20T03:32:20.234069+00:00, execution_date=20250520T033220, start_date=20250520T033229, end_date=20250520T033233
+[2025-05-20T03:32:33.648+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-20T03:32:33.992+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:1297 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2025-05-20T03:32:34.012+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T03:32:34.014+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

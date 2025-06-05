@@ -1,0 +1,48 @@
+[2025-04-29T06:45:03.414+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-29T06:45:09.701+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-28T16:59:01+00:00 [queued]>
+[2025-04-29T06:45:09.755+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-28T16:59:01+00:00 [queued]>
+[2025-04-29T06:45:09.760+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-04-29T06:45:09.832+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_postgres> on 2025-04-28 16:59:01+00:00
+[2025-04-29T06:45:09.849+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'random_user_pipeline', 'insert_***', 'scheduled__2025-04-28T16:59:01+00:00', '--job-id', '118', '--raw', '--subdir', 'DAGS_FOLDER/random_user_pipeline.py', '--cfg-path', '/tmp/tmpiequ2n8e']
+[2025-04-29T06:45:09.860+0000] {standard_task_runner.py:91} INFO - Job 118: Subtask insert_***
+[2025-04-29T06:45:09.877+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=250) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-29T06:45:09.902+0000] {standard_task_runner.py:63} INFO - Started process 263 to run task
+[2025-04-29T06:45:23.839+0000] {task_command.py:426} INFO - Running <TaskInstance: random_user_pipeline.insert_postgres scheduled__2025-04-28T16:59:01+00:00 [running]> on host 04b4fc26656e
+[2025-04-29T06:55:25.507+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='random_user_pipeline' AIRFLOW_CTX_TASK_ID='insert_***' AIRFLOW_CTX_EXECUTION_DATE='2025-04-28T16:59:01+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-28T16:59:01+00:00'
+[2025-04-29T06:55:25.512+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-29T06:55:25.539+0000] {logging_mixin.py:188} INFO - Fetched Product Data: N
+[2025-04-29T06:55:30.202+0000] {local_task_job_runner.py:214} ERROR - Heartbeat time limit exceeded!
+[2025-04-29T06:55:30.203+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-04-29T06:55:30.208+0000] {process_utils.py:132} INFO - Sending 15 to group 263. PIDs of all processes in the group: [263]
+[2025-04-29T06:55:30.210+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 263
+[2025-04-29T06:55:32.264+0000] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-04-29T06:55:32.268+0000] {logging_mixin.py:188} INFO - Database connection closed.
+[2025-04-29T06:55:32.270+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-29T06:55:40.453+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/storage/postgres_loader/write_to_postgres.py", line 19, in write_to_postgres
+    conn = psycopg2.connect(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-04-29T06:55:40.481+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=random_user_pipeline, task_id=insert_***, run_id=scheduled__2025-04-28T16:59:01+00:00, execution_date=20250428T165901, start_date=20250429T064509, end_date=20250429T065540
+[2025-04-29T06:55:40.690+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=263, status='terminated', exitcode=2, started='06:45:08') (263) terminated with exit code 2
