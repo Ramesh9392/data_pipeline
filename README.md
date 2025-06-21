@@ -13,10 +13,14 @@ A production-ready Apache Airflow pipeline that fetches random user data from an
 - 📧 **Email Notifications**: Sends an HTML summary email after each DAG run.
 - 📜 **Audit Logging**: Logs ingestion metadata to a dedicated audit table.
 - 🧱 **Modular Design**: Clean project structure for easy extension and testing.
+- 🐳 **Dockerized Environment**: Airflow + PostgreSQL run in containers.
+- ⚙️ **Environment Configurable**: Easy setup using a `.env` file.
+- 🧠 **Conditional Inserts**: Data inserted only if daily conditions are met.
 
 ---
 
 ## 📁 Project Structure
+.
 ├── dags/
 │ └── random_user_pipeline.py # Main DAG definition
 ├── ingestion/
@@ -32,8 +36,12 @@ A production-ready Apache Airflow pipeline that fetches random user data from an
 ├── sql/
 │ ├── check_fresh_data.sql # SQL sensor query
 │ └── log_ingestion.sql # SQL audit logging
-├── README.md
-└── requirements.txt # Python dependencies (optional)
+├── docker-compose.yml # Docker config for Airflow + Postgres
+├── .env.example # Template for environment variables
+├── requirements.txt # Optional Python dependencies
+└── README.md # This file
+
+
 ---
 
 ## 🛠️ Technologies Used
@@ -44,10 +52,92 @@ A production-ready Apache Airflow pipeline that fetches random user data from an
 - **SQL** – Sensors and inserts
 - **Jinja2/HTML** – Email templating
 - **XComs & Trigger Rules** – Task flow control
+- **Docker Compose** – Local deployment of Airflow & Postgres
 
 ---
 
-Trigger Rules: Ensures tasks proceed only if upstream conditions are met
+## 🧪 Trigger Rules
 
-📬 Example Email Report
-Includes user count, timestamps, and ingestion status in a visually structured HTML format.
+Airflow DAG uses conditional task execution:
+- Skip steps if data already exists for the current date
+- Insert data only if at least 1 record exists and fewer than 150 records are already present
+
+---
+
+## 📬 Example Email Report
+
+The email contains:
+- Number of records ingested
+- Timestamp of ingestion
+- DAG execution status  
+All presented in a clean, structured HTML template.
+
+---
+
+## 🧰 Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+##  Start the Pipeline Locally
+```bash
+git clone https://github.com/Ramesh9392/data_pipeline.git
+cd data_pipeline
+```
+Configure Environment Variables
+Copy the example config file:
+
+```bash
+cp .env_example .env
+
+```
+Edit .env and update your local values:
+```bash
+# Airflow Admin Login
+AIRFLOW_ADMIN_USERNAME=admin
+AIRFLOW_ADMIN_PASSWORD=admin123
+
+# PostgreSQL Config
+POSTGRES_USER=airflow
+POSTGRES_PASSWORD=airflow
+POSTGRES_DB=airflow
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+
+# SMTP Email Settings
+smtp_server=smtp.example.com
+smtp_port=587
+smtp_username=your_username
+smtp_password=your_password
+smtp_sender_email=airflow@example.com
+```
+
+## 3️⃣ Start the Pipeline Locally
+
+
+```bash
+go to project by using cd and in project folder run the following command:
+
+docker compose up --build
+```
+This will:
+
+Start Airflow and Postgres services
+
+Initialize the metadata DB
+
+Create an admin user
+
+Launch the webserver and scheduler
+
+## 🌐 Access the Airflow UI:
+
+http://localhost:8080
+
+## 4️⃣ Stop the Pipeline
+```bash
+docker compose down
+```
+To also remove DB volumes and logs:
+```bash
+docker compose down -v
+```
